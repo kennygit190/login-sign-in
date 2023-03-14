@@ -88,13 +88,6 @@ include'connect.php';
         $sql="insert into signin(names,email,phone,password,age,gender)values('$name','$email','$phone','$password','$age','$gender')";
         
         $result=mysqli_query($con,$sql);
-
-        // if($result){
-        //     echo'succesful install';
-        // }
-        // else{
-        //     echo'failed insert';
-        // }
     }
     ?>
 </body>
