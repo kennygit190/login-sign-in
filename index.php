@@ -8,7 +8,9 @@ include'connect.php';
 </head>
 <body>
     <div class="sign-in-conatiner">
-        <form action=""></form>
+        <form action="">
+            <input></input>
+        </form>
         <form method="post">
             <label for="name">Names</label>
             <br>
